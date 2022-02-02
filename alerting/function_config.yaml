@@ -1,0 +1,10 @@
+cdf_project: 
+cdf_cluster:   # or api, westeurope-1, etc.
+schedules_client_id: 
+schedules_tenant_id: 
+data_set_id: 
+common_folder: common
+description: ""
+owner:
+cpu: 0.15
+memory: 0.25

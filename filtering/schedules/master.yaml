@@ -1,0 +1,20 @@
+- name: schedule_1
+  cron: "*/15 * * * *"
+  data:
+    start_time: 4h-ago
+    end_time: now
+    agg: average
+    gran: 1m
+    input_timeseries: Time_series_1
+    filter_type: moving_average
+    filter_order: 121
+- name: schedule_2
+  cron: "*/15 * * * *"
+  data:
+    start_time: 4h-ago
+    end_time: now
+    agg: average
+    gran: 1m
+    input_timeseries: Time_series_2
+    filter_type: median_filter
+    filter_order: 121

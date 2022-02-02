@@ -1,0 +1,13 @@
+- name: schedule1
+  cron: "0 0 1 * *"
+  data:
+    event_description: auto
+    logic: '>'
+    logic_string: greater than
+    metadata:
+      Info: Test
+      Purpose: Test
+    scheduled_frequency: 2h
+    threshold: '40'
+    ts_ext_id: my_time_series
+    type: cognite_functions_alerting
