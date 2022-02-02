@@ -15,7 +15,7 @@ Provide a readme file along with your code with the instructions on how it shall
 
   When you want to improve the existing code, include the code owner for review.
   
-  
+------------  
 Check the cognite functions templates given in the links https://github.com/cognitedata/deploy-functions and https://github.com/cognitedata/deploy-functions-oidc for template specific instructions.
 
 
